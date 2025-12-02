@@ -1,0 +1,142 @@
+{
+  "site": {
+    "title": "Magic Hat",
+    "tagline": "Brand Solutions",
+    "description": "At Magic Hat, we pull extraordinary results out of thin air."
+  },
+  "navigation": {
+    "links": [
+      { "label": "Team", "href": "#team" },
+      { "label": "Story", "href": "#story" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Case Studies", "href": "#case-studies" }
+    ]
+  },
+  "hero": {
+    "headline": "Transform Your Brand with Magic Hat",
+    "description": "At Magic Hat, we pull extraordinary results out of thin air. Our expertise in Social Media Strategic Marketing, Brand Solutions, Personal Branding, and Booking.com/Airbnb Account Management empowers businesses and individuals to stand out in a crowded world."
+  },
+  "team": {
+    "badge": "Our Team",
+    "headline": "Meet the Visionaries Behind Magic Hat",
+    "members": [
+      {
+        "id": 1,
+        "name": "Hasitha Sankalpa",
+        "role": "Founder",
+        "bio": "With a background in Business Development and Marketing, Hasitha brings strategic insight and a passion for building brands that resonate. His expertise in creative strategy and client relations drives Magic Hat's mission to deliver impactful solutions.",
+        "links": [
+          { "label": "LinkedIn Profile", "url": "#" }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tharindu Gayan",
+        "role": "Co-Founder",
+        "bio": "A creative powerhouse with a flair for design and branding, Tharindu crafts visually stunning and strategically sound solutions. His work at Gayan Designs showcases a talent for transforming ideas into compelling brand identities.",
+        "links": [
+          { "label": "LinkedIn", "url": "#" },
+          { "label": "Behance", "url": "#" }
+        ]
+      }
+    ]
+  },
+  "story": {
+    "badge": "Our Story",
+    "headline": "Our Background and Vision",
+    "intro": "Magic Hat was born from a shared passion for creativity and strategy, founded by Hasitha Sankalpa and Tharindu Gayan. Our journey began with a simple idea: to help brands and individuals shine through innovative, tailored solutions.",
+    "body": "Drawing from Hasitha's expertise in strategic marketing and Tharindu's creative design prowess, we've built a company that blends art and strategy to create unforgettable brand experiences.",
+    "vision": {
+      "title": "Our Vision",
+      "description": "To empower every client—whether a startup, an individual, or an established business—to unlock their unique magic and dominate their market with confidence and creativity."
+    },
+    "image": "/modern-office-collaboration.png"
+  },
+  "services": {
+    "badge": "Our Services",
+    "headline": "Unleash Your Brand's Potential",
+    "items": [
+      {
+        "id": 1,
+        "icon": "Facebook",
+        "title": "Social Media Strategic Marketing",
+        "description": "Data-driven campaigns that boost engagement and grow your audience across platforms like Instagram, LinkedIn, and more."
+      },
+      {
+        "id": 2,
+        "icon": "Award",
+        "title": "Brand Solutions",
+        "description": "Comprehensive branding strategies, from logo design to brand identity, that tell your story and connect with your audience."
+      },
+      {
+        "id": 3,
+        "icon": "UserCircle",
+        "title": "Personal Branding",
+        "description": "Elevate your personal presence with tailored strategies that highlight your unique strengths and build your professional reputation."
+      },
+      {
+        "id": 4,
+        "icon": "Home",
+        "title": "Booking.com and Airbnb Account Management",
+        "description": "Optimize your listings, enhance guest experiences, and maximize bookings with expert account management."
+      }
+    ]
+  },
+  "caseStudies": {
+    "badge": "Case Studies",
+    "headline": "Real Results, Real Magic",
+    "studies": [
+      {
+        "id": 1,
+        "title": "Cylon Pharma",
+        "image": "/modern-ecommerce-website.png",
+        "challenge": "Cylon Pharma needed a cohesive brand identity and a robust social media presence to stand out in the competitive pharmaceutical market.",
+        "solution": "Magic Hat developed a bold new logo, a consistent brand voice, and a targeted social media strategy focusing on LinkedIn and Twitter to engage healthcare professionals.",
+        "result": "A 40% increase in social media engagement and improved brand recognition within six months.",
+        "metrics": ["40% Engagement Increase"]
+      },
+      {
+        "id": 2,
+        "title": "Booking.com Partnership",
+        "image": "/modern-dashboard-analytics-interface.jpg",
+        "challenge": "A boutique hotel struggled with low visibility and bookings on Booking.com.",
+        "solution": "Magic Hat optimized their listing with professional photography, compelling descriptions, and strategic pricing recommendations, while also managing guest communications.",
+        "result": "A 25% increase in bookings and a 4.8-star average rating within three months.",
+        "metrics": ["25% More Bookings", "4.8★ Rating"]
+      }
+    ]
+  },
+  "footer": {
+    "description": "Pulling extraordinary results out of thin air through strategic marketing, brand solutions, and creative excellence.",
+    "sections": [
+      {
+        "title": "Services",
+        "links": [
+          "Social Media Marketing",
+          "Brand Solutions",
+          "Personal Branding",
+          "Account Management"
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          "About Us",
+          "Our Team",
+          "Case Studies",
+          "Contact"
+        ]
+      },
+      {
+        "title": "Connect",
+        "links": [
+          "LinkedIn",
+          "Behance",
+          "Instagram",
+          "Facebook"
+        ]
+      }
+    ],
+    "copyright": "&copy; 2025 Magic Hat - Brand Solutions. All rights reserved."
+  }
+}
