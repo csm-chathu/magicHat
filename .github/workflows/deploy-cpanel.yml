@@ -29,6 +29,7 @@ jobs:
       CPANEL_BUILD_COMMAND: ${{ secrets.CPANEL_BUILD_COMMAND }}
       CPANEL_POST_COMMANDS: ${{ secrets.CPANEL_POST_COMMANDS }}
       CPANEL_SSH_OPTIONS: ${{ secrets.CPANEL_SSH_OPTIONS }}
+      CPANEL_SSH_KEY: ${{ secrets.CPANEL_SSH_KEY }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -47,9 +48,7 @@ jobs:
           echo "CPANEL_BRANCH=$BRANCH" >> "$GITHUB_ENV"
 
       - name: Prepare SSH key
-        if: ${{ secrets.CPANEL_SSH_KEY != '' }}
-        env:
-          CPANEL_SSH_KEY: ${{ secrets.CPANEL_SSH_KEY }}
+        if: ${{ env.CPANEL_SSH_KEY != '' }}
         run: |
           mkdir -p ~/.ssh
           echo "$CPANEL_SSH_KEY" > ~/.ssh/cpanel_key
@@ -58,7 +57,7 @@ jobs:
           echo "CPANEL_KEY_PATH=$HOME/.ssh/cpanel_key" >> "$GITHUB_ENV"
 
       - name: Cache host key
-        if: ${{ secrets.CPANEL_SSH_KEY == '' }}
+        if: ${{ env.CPANEL_SSH_KEY == '' }}
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan -p "${CPANEL_PORT:-22}" "$CPANEL_HOST" >> ~/.ssh/known_hosts
