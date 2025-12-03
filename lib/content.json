@@ -6,11 +6,30 @@
   },
   "navigation": {
     "links": [
-      { "label": "Team", "href": "#team" },
-      { "label": "Story", "href": "#story" },
-      { "label": "Services", "href": "#services" },
-      { "label": "Work", "href": "#work" },
-      { "label": "Case Studies", "href": "#case-studies" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Team",
+        "href": "#team"
+      },
+      {
+        "label": "Story",
+        "href": "#story"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Work",
+        "href": "/work"
+      },
+      {
+        "label": "Case Studies",
+        "href": "#case-studies"
+      }
     ]
   },
   "hero": {
@@ -27,7 +46,12 @@
         "role": "Founder",
         "bio": "With a background in Business Development and Marketing, Hasitha brings strategic insight and a passion for building brands that resonate. His expertise in creative strategy and client relations drives Magic Hat's mission to deliver impactful solutions.",
         "icon": "UserCircle",
-        "links": [{ "label": "LinkedIn Profile", "url": "#" }]
+        "links": [
+          {
+            "label": "LinkedIn Profile",
+            "url": "#"
+          }
+        ]
       },
       {
         "id": 2,
@@ -35,7 +59,16 @@
         "role": "Co-Founder",
         "bio": "A creative powerhouse with a flair for design and branding, Tharindu crafts visually stunning and strategically sound solutions. His work at Gayan Designs showcases a talent for transforming ideas into compelling brand identities.",
         "icon": "Award",
-        "links": [{ "label": "LinkedIn", "url": "#" }, { "label": "Behance", "url": "#" }]
+        "links": [
+          {
+            "label": "LinkedIn",
+            "url": "#"
+          },
+          {
+            "label": "Behance",
+            "url": "#"
+          }
+        ]
       }
     ]
   },
@@ -83,6 +116,20 @@
   "work": {
     "badge": "Our Work",
     "headline": "Recent Projects & Campaigns",
+    "page": {
+      "badge": "Portfolio",
+      "headline": "Work that pulls remarkable results out of thin air.",
+      "description": "A deeper look at the partnerships we have built across travel, lifestyle, and professional brands to grow audiences, bookings, and trust.",
+      "cta": {
+        "label": "Book a Discovery Call",
+        "href": "mailto:hello@magichat.agency"
+      },
+      "stats": [
+        "12+ Brand Systems Delivered",
+        "8 Long-Term Retainer Clients",
+        "30% Avg. Engagement Lift"
+      ]
+    },
     "projects": [
       {
         "id": 1,
@@ -108,6 +155,83 @@
         "image": "/modern-dashboard-analytics-interface.jpg",
         "description": "Strategic content planning and creation for maximum impact and audience engagement."
       }
+    ],
+    "otherProjects": [
+      {
+        "id": 101,
+        "title": "Gayan Designs Brand Refresh",
+        "image": "/modern-ecommerce-website.png",
+        "summary": "Reimagined the visual identity for a boutique design studio, aligning the brand with premium positioning and a compelling story.",
+        "services": [
+          "Brand Strategy",
+          "Art Direction",
+          "Identity Design"
+        ],
+        "metrics": [
+          "75% Lead Growth",
+          "Consistent Brand Toolkit"
+        ]
+      },
+      {
+        "id": 102,
+        "title": "Ceylon Luxe Villas Launch",
+        "image": "/modern-dashboard-analytics-interface.jpg",
+        "summary": "Crafted a launch playbook for a luxury villa collective spanning social, email, and booking engines to secure high-season occupancy.",
+        "services": [
+          "Campaign Strategy",
+          "Booking.com Optimization",
+          "Influencer Partnerships"
+        ],
+        "metrics": [
+          "90% Occupancy in Month One",
+          "4.9★ Guest Rating"
+        ]
+      },
+      {
+        "id": 103,
+        "title": "Bluewave Digital Performance Campaign",
+        "image": "/mobile-banking-app.png",
+        "summary": "Scaled a fintech client's paid social presence with segmented messaging and an experimentation roadmap that doubled conversions.",
+        "services": [
+          "Paid Media",
+          "Conversion Copy",
+          "Performance Reporting"
+        ],
+        "metrics": [
+          "2.1x Conversion Lift",
+          "35% Lower CPA"
+        ]
+      },
+      {
+        "id": 104,
+        "title": "InstaFood Sri Lanka Social Amplification",
+        "image": "/modern-office-collaboration.png",
+        "summary": "Built a snackable content pipeline for a fast-growing food brand, pairing reels with creator collaborations and pop-up activations.",
+        "services": [
+          "Content Production",
+          "Creator Management",
+          "Community Building"
+        ],
+        "metrics": [
+          "4x Weekly Reach",
+          "Top-of-Mind Awareness"
+        ]
+      },
+      {
+        "id": 105,
+        "title": "Hospitality Concierge Automation",
+        "image": "/modern-dashboard-analytics-interface.jpg",
+        "summary": "Introduced a CRM-driven concierge experience for a boutique hotel group, personalizing guest journeys before, during, and after stays.",
+        "services": [
+          "CRM Implementation",
+          "Guest Journey Mapping",
+          "Email Automation"
+        ],
+        "metrics": [
+          "38% Upsell Rate",
+          "60% Repeat Bookings"
+        ]
+      }
     ]
   },
   "caseStudies": {
@@ -121,7 +245,9 @@
         "challenge": "Cylon Pharma needed a cohesive brand identity and a robust social media presence to stand out in the competitive pharmaceutical market.",
         "solution": "Magic Hat developed a bold new logo, a consistent brand voice, and a targeted social media strategy focusing on LinkedIn and Twitter to engage healthcare professionals.",
         "result": "A 40% increase in social media engagement and improved brand recognition within six months.",
-        "metrics": ["40% Engagement Increase"]
+        "metrics": [
+          "40% Engagement Increase"
+        ]
       },
       {
         "id": 2,
@@ -130,7 +256,10 @@
         "challenge": "A boutique hotel struggled with low visibility and bookings on Booking.com.",
         "solution": "Magic Hat optimized their listing with professional photography, compelling descriptions, and strategic pricing recommendations, while also managing guest communications.",
         "result": "A 25% increase in bookings and a 4.8-star average rating within three months.",
-        "metrics": ["25% More Bookings", "4.8★ Rating"]
+        "metrics": [
+          "25% More Bookings",
+          "4.8★ Rating"
+        ]
       }
     ]
   },
@@ -139,15 +268,30 @@
     "sections": [
       {
         "title": "Services",
-        "links": ["Social Media Marketing", "Brand Solutions", "Personal Branding", "Account Management"]
+        "links": [
+          "Social Media Marketing",
+          "Brand Solutions",
+          "Personal Branding",
+          "Account Management"
+        ]
       },
       {
         "title": "Company",
-        "links": ["About Us", "Our Team", "Case Studies", "Contact"]
+        "links": [
+          "About Us",
+          "Our Team",
+          "Case Studies",
+          "Contact"
+        ]
       },
       {
         "title": "Connect",
-        "links": ["LinkedIn", "Behance", "Instagram", "Facebook"]
+        "links": [
+          "LinkedIn",
+          "Behance",
+          "Instagram",
+          "Facebook"
+        ]
       }
     ],
     "copyright": "&copy; 2025 Magic Hat - Brand Solutions. All rights reserved."
