@@ -1,0 +1,67 @@
+name: Deploy to cPanel
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to deploy (defaults to the workflow ref)"
+        required: false
+        default: ""
+
+concurrency: deploy-cpanel
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
+      CPANEL_USER: ${{ secrets.CPANEL_USER }}
+      CPANEL_REMOTE_PATH: ${{ secrets.CPANEL_REMOTE_PATH }}
+      CPANEL_PORT: ${{ secrets.CPANEL_PORT }}
+      CPANEL_REPO: ${{ secrets.CPANEL_REPO }}
+      CPANEL_PRE_COMMANDS: ${{ secrets.CPANEL_PRE_COMMANDS }}
+      CPANEL_INSTALL_COMMAND: ${{ secrets.CPANEL_INSTALL_COMMAND }}
+      CPANEL_BUILD_COMMAND: ${{ secrets.CPANEL_BUILD_COMMAND }}
+      CPANEL_POST_COMMANDS: ${{ secrets.CPANEL_POST_COMMANDS }}
+      CPANEL_SSH_OPTIONS: ${{ secrets.CPANEL_SSH_OPTIONS }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Resolve deployment branch
+        run: |
+          BRANCH="${{ github.ref_name }}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.branch }}" ]; then
+            BRANCH="${{ github.event.inputs.branch }}"
+          fi
+          echo "CPANEL_BRANCH=$BRANCH" >> "$GITHUB_ENV"
+
+      - name: Prepare SSH key
+        if: ${{ secrets.CPANEL_SSH_KEY != '' }}
+        env:
+          CPANEL_SSH_KEY: ${{ secrets.CPANEL_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$CPANEL_SSH_KEY" > ~/.ssh/cpanel_key
+          chmod 600 ~/.ssh/cpanel_key
+          ssh-keyscan -p "${CPANEL_PORT:-22}" "$CPANEL_HOST" >> ~/.ssh/known_hosts
+          echo "CPANEL_KEY_PATH=$HOME/.ssh/cpanel_key" >> "$GITHUB_ENV"
+
+      - name: Cache host key
+        if: ${{ secrets.CPANEL_SSH_KEY == '' }}
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "${CPANEL_PORT:-22}" "$CPANEL_HOST" >> ~/.ssh/known_hosts
+
+      - name: Run deployment
+        run: node scripts/deploy-cpanel.mjs
