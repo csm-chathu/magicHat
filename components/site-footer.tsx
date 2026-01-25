@@ -28,8 +28,19 @@ function SiteFooter() {
               </div>
             ))}
           </div>
-          <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
+          <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground space-y-2">
             <p dangerouslySetInnerHTML={{ __html: content.footer.copyright }} />
+            <p>
+              Designed by{" "}
+              <a
+                href="http://lmuc-innovations.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-foreground"
+              >
+                lmuc-innovations.com
+              </a>
+            </p>
           </div>
         </div>
       </footer>

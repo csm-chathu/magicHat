@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
-        <ThemeProvider>
+        <ThemeProvider defaultTheme="dark">
           <App />
         </ThemeProvider>
       </BrowserRouter>

@@ -8,8 +8,9 @@ import { ThemeAwareLogo } from "@/components/theme-aware-logo"
 import { ThemeToggle } from "@/components/theme-toggle"
 import content from "@/lib/content.json"
 import HomePage from "./pages/Home"
-import WorkPage from "./pages/Work"
+import ProjectsAdmin from "./pages/ProjectsAdmin"
 import { Menu } from "lucide-react"
+import BannerSlider from "@/components/banner-slider"
 
 function App() {
   const location = useLocation()
@@ -58,19 +59,15 @@ function App() {
         <div className="container mx-auto px-4 py-1">
           <div className="flex items-center justify-between">
             <button type="button" onClick={() => handleNavigation("/")} className="flex items-center gap-2">
-              <ThemeAwareLogo alt={content.site.title} height={64} />
+              <ThemeAwareLogo alt={content.site.title} height={70} />
             </button>
             <div className="hidden items-center gap-8 md:flex">
               {content.navigation.links.map((link) => renderNavButton(link.href, link.label))}
             </div>
             <div className="flex items-center gap-2 md:gap-4">
               <ThemeToggle />
-              <Button
-                variant="outline"
-                className="hidden bg-transparent md:inline-flex"
-                onClick={() => handleNavigation("/work")}
-              >
-                Get Started
+              <Button variant="outline" className="hidden bg-transparent md:inline-flex" asChild>
+                <a href="mailto:hello@magichat.agency">Get Started</a>
               </Button>
               <Sheet>
                 <SheetTrigger asChild>
@@ -98,8 +95,8 @@ function App() {
                   </nav>
                   <div className="mt-auto px-4 pb-6">
                     <SheetClose asChild>
-                      <Button className="w-full bg-accent hover:bg-accent/90" onClick={() => handleNavigation("/work")}>
-                        Get Started
+                      <Button className="w-full bg-accent hover:bg-accent/90" asChild>
+                        <a href="mailto:hello@magichat.agency">Get Started</a>
                       </Button>
                     </SheetClose>
                   </div>
@@ -111,9 +108,10 @@ function App() {
       </nav>
 
       <main className="flex-1 pt-24">
+        <BannerSlider />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/work" element={<WorkPage />} />
+          <Route path="/admin/projects" element={<ProjectsAdmin />} />
         </Routes>
       </main>
 

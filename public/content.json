@@ -21,14 +21,6 @@
       {
         "label": "Services",
         "href": "#services"
-      },
-      {
-        "label": "Work",
-        "href": "/work"
-      },
-      {
-        "label": "Case Studies",
-        "href": "#case-studies"
       }
     ]
   },
@@ -116,52 +108,34 @@
   "work": {
     "badge": "Our Work",
     "headline": "Recent Projects & Campaigns",
-    "page": {
-      "badge": "Portfolio",
-      "headline": "Work that pulls remarkable results out of thin air.",
-      "description": "A deeper look at the partnerships we have built across travel, lifestyle, and professional brands to grow audiences, bookings, and trust.",
-      "cta": {
-        "label": "Book a Discovery Call",
-        "href": "mailto:hello@magichat.agency"
-      },
-      "stats": [
-        "12+ Brand Systems Delivered",
-        "8 Long-Term Retainer Clients",
-        "30% Avg. Engagement Lift"
-      ]
-    },
     "projects": [
       {
         "id": 1,
         "title": "Social Media Campaign",
         "image": "/modern-office-collaboration.png",
-        "description": "Engaging social media content that drives engagement and brand awareness across multiple platforms."
+        "description": "Engaging social media content that drives engagement and brand awareness across multiple platforms.",
+        "details": "Built a snackable content pipeline for a fast-growing food brand, pairing reels with creator collaborations and live activations to spark fourfold reach.",
+        "services": [
+          "Campaign Strategy",
+          "Content Production",
+          "Influencer Partnerships"
+        ],
+        "metrics": [
+          "4x Weekly Reach",
+          "Top-of-Mind Awareness"
+        ],
+        "gallery": [
+          "/modern-office-collaboration.png",
+          "/modern-dashboard-analytics-interface.jpg",
+          "/mobile-banking-app.png"
+        ]
       },
       {
         "id": 2,
         "title": "Brand Identity Design",
         "image": "/modern-ecommerce-website.png",
-        "description": "Complete brand identity systems including logo, color palette, and visual guidelines."
-      },
-      {
-        "id": 3,
-        "title": "Digital Marketing",
-        "image": "/mobile-banking-app.png",
-        "description": "Comprehensive digital marketing strategies that increase visibility and drive conversions."
-      },
-      {
-        "id": 4,
-        "title": "Content Strategy",
-        "image": "/modern-dashboard-analytics-interface.jpg",
-        "description": "Strategic content planning and creation for maximum impact and audience engagement."
-      }
-    ],
-    "otherProjects": [
-      {
-        "id": 101,
-        "title": "Gayan Designs Brand Refresh",
-        "image": "/modern-ecommerce-website.png",
-        "summary": "Reimagined the visual identity for a boutique design studio, aligning the brand with premium positioning and a compelling story.",
+        "description": "Complete brand identity systems including logo, color palette, and visual guidelines.",
+        "details": "Reimagined the visual identity for a boutique design studio, aligning the brand with premium positioning and a compelling story across every touchpoint.",
         "services": [
           "Brand Strategy",
           "Art Direction",
@@ -170,28 +144,19 @@
         "metrics": [
           "75% Lead Growth",
           "Consistent Brand Toolkit"
-        ]
-      },
-      {
-        "id": 102,
-        "title": "Ceylon Luxe Villas Launch",
-        "image": "/modern-dashboard-analytics-interface.jpg",
-        "summary": "Crafted a launch playbook for a luxury villa collective spanning social, email, and booking engines to secure high-season occupancy.",
-        "services": [
-          "Campaign Strategy",
-          "Booking.com Optimization",
-          "Influencer Partnerships"
         ],
-        "metrics": [
-          "90% Occupancy in Month One",
-          "4.9★ Guest Rating"
+        "gallery": [
+          "/modern-ecommerce-website.png",
+          "/mobile-banking-app.png",
+          "/modern-dashboard-analytics-interface.jpg"
         ]
       },
       {
-        "id": 103,
-        "title": "Bluewave Digital Performance Campaign",
+        "id": 3,
+        "title": "Digital Marketing",
         "image": "/mobile-banking-app.png",
-        "summary": "Scaled a fintech client's paid social presence with segmented messaging and an experimentation roadmap that doubled conversions.",
+        "description": "Comprehensive digital marketing strategies that increase visibility and drive conversions.",
+        "details": "Scaled a fintech client's paid social presence with experiment-driven messaging and conversion tracking that doubled qualified leads in six weeks.",
         "services": [
           "Paid Media",
           "Conversion Copy",
@@ -200,28 +165,19 @@
         "metrics": [
           "2.1x Conversion Lift",
           "35% Lower CPA"
-        ]
-      },
-      {
-        "id": 104,
-        "title": "InstaFood Sri Lanka Social Amplification",
-        "image": "/modern-office-collaboration.png",
-        "summary": "Built a snackable content pipeline for a fast-growing food brand, pairing reels with creator collaborations and pop-up activations.",
-        "services": [
-          "Content Production",
-          "Creator Management",
-          "Community Building"
         ],
-        "metrics": [
-          "4x Weekly Reach",
-          "Top-of-Mind Awareness"
+        "gallery": [
+          "/mobile-banking-app.png",
+          "/modern-office-collaboration.png",
+          "/modern-dashboard-analytics-interface.jpg"
         ]
       },
       {
-        "id": 105,
-        "title": "Hospitality Concierge Automation",
+        "id": 4,
+        "title": "Content Strategy",
         "image": "/modern-dashboard-analytics-interface.jpg",
-        "summary": "Introduced a CRM-driven concierge experience for a boutique hotel group, personalizing guest journeys before, during, and after stays.",
+        "description": "Strategic content planning and creation for maximum impact and audience engagement.",
+        "details": "Introduced CRM-backed storytelling for a hospitality group, personalizing guest journeys before, during, and after stays to boost repeat bookings.",
         "services": [
           "CRM Implementation",
           "Guest Journey Mapping",
@@ -230,38 +186,68 @@
         "metrics": [
           "38% Upsell Rate",
           "60% Repeat Bookings"
+        ],
+        "gallery": [
+          "/modern-dashboard-analytics-interface.jpg",
+          "/modern-office-collaboration.png",
+          "/modern-ecommerce-website.png"
         ]
       }
     ]
   },
-  "caseStudies": {
-    "badge": "Case Studies",
-    "headline": "Real Results, Real Magic",
-    "studies": [
+  "reviews": {
+    "badge": "Customer Reviews",
+    "headline": "What partners say about our magic",
+    "items": [
       {
         "id": 1,
-        "title": "Cylon Pharma",
-        "image": "/modern-ecommerce-website.png",
-        "challenge": "Cylon Pharma needed a cohesive brand identity and a robust social media presence to stand out in the competitive pharmaceutical market.",
-        "solution": "Magic Hat developed a bold new logo, a consistent brand voice, and a targeted social media strategy focusing on LinkedIn and Twitter to engage healthcare professionals.",
-        "result": "A 40% increase in social media engagement and improved brand recognition within six months.",
-        "metrics": [
-          "40% Engagement Increase"
-        ]
+        "name": "Lahiru Akalanka",
+        "role": "Ceylon pharma academy",
+        "quote": "Great Customer support by magic hat. Fast responses, clear communication, and very professional service. I will definitely use this service again. ❤️🏆",
+        "rating": 5,
+        "avatar": "/avatars/review-1.jpg"
+      }
+    ]
+  },
+  "partners": {
+    "badge": "Our Partners",
+    "headline": "Trusted by brands with big ambitions",
+    "items": [
+      {
+        "id": 1,
+        "name": "Bluewave Digital",
+        "logo": "/partners/bluewave.svg"
       },
       {
         "id": 2,
-        "title": "Booking.com Partnership",
-        "image": "/modern-dashboard-analytics-interface.jpg",
-        "challenge": "A boutique hotel struggled with low visibility and bookings on Booking.com.",
-        "solution": "Magic Hat optimized their listing with professional photography, compelling descriptions, and strategic pricing recommendations, while also managing guest communications.",
-        "result": "A 25% increase in bookings and a 4.8-star average rating within three months.",
-        "metrics": [
-          "25% More Bookings",
-          "4.8★ Rating"
-        ]
+        "name": "Ceylon Luxe Villas",
+        "logo": "/partners/ceylon-luxe.svg"
+      },
+      {
+        "id": 3,
+        "name": "InstaFood",
+        "logo": "/partners/instafood.svg"
+      },
+      {
+        "id": 4,
+        "name": "Gayan Designs",
+        "logo": "/partners/gayan-designs.svg"
+      },
+      {
+        "id": 5,
+        "name": "Hospitality Co",
+        "logo": "/partners/hospitality-co.svg"
       }
     ]
+  },
+  "contact": {
+    "email": "hello@magichat.agency",
+    "whatsapp": {
+      "label": "Chat on WhatsApp",
+      "number": "+94 71 123 4567",
+      "link": "94711234567",
+      "message": "Hi Magic Hat team! I'd love to learn more about your services."
+    }
   },
   "footer": {
     "description": "Pulling extraordinary results out of thin air through strategic marketing, brand solutions, and creative excellence.",
@@ -280,7 +266,6 @@
         "links": [
           "About Us",
           "Our Team",
-          "Case Studies",
           "Contact"
         ]
       },

@@ -21,20 +21,12 @@
       {
         "label": "Services",
         "href": "#services"
-      },
-      {
-        "label": "Work",
-        "href": "/work"
-      },
-      {
-        "label": "Case Studies",
-        "href": "#case-studies"
       }
     ]
   },
   "hero": {
-    "headline": "Transform Your Brand with Magic Hat",
-    "description": "At Magic Hat, we pull extraordinary results out of thin air. Our expertise in Social Media Strategic Marketing, Brand Solutions, Personal Branding, and Booking.com/Airbnb Account Management empowers businesses and individuals to stand out in a crowded world."
+    "headline": "Transform Your Brand with Magic Hat Digital",
+    "description": "Magic Hat Digital conjures extraordinary results. Expert Social Media Marketing, Brand Solutions, Personal Branding, and Tourism Listing Management fix Google verification issues and boost visibility on Airbnb, Booking.com, Hostelworld, TripAdvisor—filling Sri Lanka bookings fast."
   },
   "team": {
     "badge": "Our Team",
@@ -44,12 +36,16 @@
         "id": 1,
         "name": "Hasitha Sankalpa",
         "role": "Founder",
-        "bio": "With a background in Business Development and Marketing, Hasitha brings strategic insight and a passion for building brands that resonate. His expertise in creative strategy and client relations drives Magic Hat's mission to deliver impactful solutions.",
+        "bio": "Hasitha is a senior designer with a deep passion for digital marketing, strategic planning, and creative problem-solving. He brings a balanced approach that blends design thinking with marketing strategy to build brands that are both visually compelling and commercially effective. With a strong understanding of client needs and technical solutions, Hasitha plays a key role in shaping Magic Hat’s direction—delivering innovative, scalable, and impactful digital solutions that help businesses grow and connect meaningfully with their audiences.",
         "icon": "UserCircle",
         "links": [
           {
             "label": "LinkedIn Profile",
-            "url": "#"
+            "url": "https://www.linkedin.com/in/hasitha-sankalpa-57544576/?originalSubdomain=lk"
+          },
+          {
+            "label": "Behance",
+            "url": "https://www.behance.net/hasithasankalpa"
           }
         ]
       },
@@ -57,16 +53,16 @@
         "id": 2,
         "name": "Tharindu Gayan",
         "role": "Co-Founder",
-        "bio": "A creative powerhouse with a flair for design and branding, Tharindu crafts visually stunning and strategically sound solutions. His work at Gayan Designs showcases a talent for transforming ideas into compelling brand identities.",
+        "bio": "Tharindu is a creative powerhouse with a strong artistic vision and a sharp eye for design and branding. As an imaginative and detail-driven creative thinker, he transforms ideas into visually striking and strategically aligned brand identities. His ability to blend artistic expression with thoughtful design results in solutions that are not only visually compelling but also meaningful, memorable, and impactful.",
         "icon": "Award",
         "links": [
           {
             "label": "LinkedIn",
-            "url": "#"
+            "url": "https://www.linkedin.com/in/tharindu-gayan-5b0a34191/"
           },
           {
             "label": "Behance",
-            "url": "#"
+            "url": "https://www.behance.net/gayandesigns"
           }
         ]
       }
@@ -75,13 +71,9 @@
   "story": {
     "badge": "Our Story",
     "headline": "Our Background and Vision",
-    "intro": "Magic Hat was born from a shared passion for creativity and strategy, founded by Hasitha Sankalpa and Tharindu Gayan. Our journey began with a simple idea: to help brands and individuals shine through innovative, tailored solutions.",
-    "body": "Drawing from Hasitha's expertise in strategic marketing and Tharindu's creative design prowess, we've built a company that blends art and strategy to create unforgettable brand experiences.",
-    "vision": {
-      "title": "Our Vision",
-      "description": "To empower every client—whether a startup, an individual, or an established business—to unlock their unique magic and dominate their market with confidence and creativity."
-    },
-    "image": "/modern-office-collaboration.png"
+    "intro": "Magic Hat was born from a shared passion for creativity and strategy, founded by Hasitha Sankalpa and Tharindu Gayan. What began as a simple idea has grown into a mission to help brands and individuals stand out through innovative, thoughtful, and tailored solutions.",
+    "body": "By combining Hasitha’s strength in strategic marketing and digital planning with Tharindu’s artistic vision and creative design expertise, Magic Hat bridges the gap between art and strategy. Together, we craft memorable brand experiences that are not only visually striking but also purposeful, impactful, and built to last.",
+    "image": "/assets/Artboard 3-100.png"
   },
   "services": {
     "badge": "Our Services",
@@ -90,178 +82,193 @@
       {
         "id": 1,
         "icon": "Facebook",
-        "title": "Social Media Strategic Marketing",
-        "description": "Data-driven campaigns that boost engagement and grow your audience across platforms like Instagram, LinkedIn, and more."
+        "title": "Social Media Strategy & Boosting",
+        "image": "/assets/services/Services-01.jpg",
+        "description": "We plan and execute data-driven social media strategies that increase engagement, grow your audience, and improve brand awareness. Through targeted boosting, creative content, and performance tracking, we help your brand achieve measurable results across platforms like Instagram, LinkedIn, Facebook, and more."
       },
       {
         "id": 2,
         "icon": "Award",
-        "title": "Brand Solutions",
-        "description": "Comprehensive branding strategies, from logo design to brand identity, that tell your story and connect with your audience."
+        "title": "Brand & Personal Identity Solutions",
+        "image": "/assets/services/Services-02.jpg",
+        "description": "We create complete branding solutions, from logo design to full brand identity systems, supported by digital and technical enhancements. Our strategies help businesses and individuals communicate their story clearly, stand out from competitors, and build a strong, recognizable presence."
       },
       {
         "id": 3,
         "icon": "UserCircle",
-        "title": "Personal Branding",
-        "description": "Elevate your personal presence with tailored strategies that highlight your unique strengths and build your professional reputation."
+        "title": "Booking Platform Account Management",
+        "image": "/assets/services/Services-03.jpg",
+        "description": "We manage and optimize accounts on Airbnb, Booking.com, Hostelworld, and TripAdvisor to improve visibility and bookings. From correct account setup and listing optimization to solving technical issues and improving guest experience, we help properties perform better in Sri Lanka’s tourism market."
       },
       {
         "id": 4,
         "icon": "Home",
-        "title": "Booking.com and Airbnb Account Management",
-        "description": "Optimize your listings, enhance guest experiences, and maximize bookings with expert account management."
+        "title": "Digital & Technical Growth Solutions",
+        "image": "/assets/services/Services-04.jpg",
+        "description": "We offer end-to-end digital and technical services including strategic planning, software solutions, website development, content creation, TV commercials, and multimedia production—supporting your brand at every stage of growth."
       }
     ]
   },
   "work": {
     "badge": "Our Work",
     "headline": "Recent Projects & Campaigns",
-    "page": {
-      "badge": "Portfolio",
-      "headline": "Work that pulls remarkable results out of thin air.",
-      "description": "A deeper look at the partnerships we have built across travel, lifestyle, and professional brands to grow audiences, bookings, and trust.",
-      "cta": {
-        "label": "Book a Discovery Call",
-        "href": "mailto:hello@magichat.agency"
-      },
-      "stats": [
-        "12+ Brand Systems Delivered",
-        "8 Long-Term Retainer Clients",
-        "30% Avg. Engagement Lift"
-      ]
-    },
     "projects": [
       {
         "id": 1,
-        "title": "Social Media Campaign",
+        "title": "Popeye Beach Restaurant & Aurora Villa - Tourism Platform Optimization",
         "image": "/modern-office-collaboration.png",
-        "description": "Engaging social media content that drives engagement and brand awareness across multiple platforms."
+        "description": "Boosting Popeye Beach Restaurant & Aurora Villa Across Airbnb, Booking.com & More",
+        "details": "Sri Lanka's south coast tourism thrives in hotspots like Ahangama, but many oceanfront restaurants and villas struggle behind the scenes. Incomplete listings, platform restrictions, and blocked verifications often keep great properties hidden from surfers, travelers, and food lovers.\n\nMagic Hat Digital stepped in to fix these issues, providing professional solutions that optimized Popeye Beach Restaurant and Aurora Villa for maximum visibility and bookings.\n\nThe Challenge: Ahangama Gems Hidden from View\nRohan manages Popeye Beach Restaurant, an oceanfront dining and bar experience with panoramic surf views, alongside Aurora Villa & Hostel, just steps from Ahangama Beach and Mash Mellow Surf Point.\n\nDespite the prime location, digital hurdles limited success:\n• Airbnb listings live but not generating bookings\n• Hostelworld profiles never went live\n• Google Business verification blocked, hiding the restaurant from map searches\n• Booking.com account incomplete, limiting exposure\n\nThe result? Empty tables and low occupancy, even during peak surf season near Kabalana Beach.\n\nOur Solution: Integrated Tourism & Platform Overhaul\nMagic Hat Digital delivered a full solution to fix technical issues and unlock online visibility:\n\nPlatform Setup & Fixes:\n• Verified and optimized Airbnb and Booking.com accounts with professional photos, titles like 'Aurora Villa and Hostel Ahangama', and detailed descriptions highlighting WiFi and garden terraces.\n• Troubleshot and attempted Google Business verification to ensure restaurant presence on maps.\n• Prepared Hostelworld listings for launch with surf-optimized keywords.\n\nPerformance Boosts:\n• Introduced dynamic pricing for peak surf seasons\n• Implemented automated guest messaging and cross-promotions\n• Aligned villa and restaurant digital profiles for seamless customer experience\n\nAll updates were executed efficiently, preparing properties to capture Ahangama's beach crowd.\n\nThe Results: Bookings, Reviews & Growth\nEven with some platforms still pending, improvements were immediate on Airbnb and Booking.com:\n• Airbnb visibility increased – live listings now attracting traffic\n• Platform readiness – Hostelworld and Google setup prepared for launch\n• Improved property presentation – Reels, photos, compelling descriptions, and dynamic pricing in place\n\nMagic Hat Digital now manages the technical and platform aspects, letting Rohan focus on hospitality and guest experience.",
+        "services": [
+          "Platform Setup & Optimization",
+          "Google Business Verification",
+          "Dynamic Pricing Strategy",
+          "Guest Messaging Automation"
+        ],
+        "metrics": [
+          "Airbnb Visibility Increased",
+          "Platform Ready for Launch"
+        ],
+        "gallery": [
+          "/modern-office-collaboration.png",
+          "/modern-dashboard-analytics-interface.jpg",
+          "/mobile-banking-app.png"
+        ]
       },
       {
         "id": 2,
-        "title": "Brand Identity Design",
+        "title": "Ketha Solutions - Logo Design & Digital Strategy",
         "image": "/modern-ecommerce-website.png",
-        "description": "Complete brand identity systems including logo, color palette, and visual guidelines."
+        "description": "Logo Design & Digital Strategy Launch for futuristic software company",
+        "details": "Crafted a unique, minimalist logo for Ketha Solutions—a forward-thinking software company delivering futuristic enterprise solutions powered by cutting-edge technologies.\n\nClient Challenge\nKetha needed more than a typical software logo. They wanted simple yet distinctive branding that reflects their innovative approach to future-ready business solutions.\n\nOur Approach\n• Logo Creation: Designed a clean, modern logo incorporating subtle tech motifs (circuit-inspired lines, geometric futurism) while maintaining simplicity for versatile use across digital/print.\n• Digital Strategy Roadmap: Developed a comprehensive launch plan including website wireframes, social media frameworks, content strategy, and SEO positioning for their niche tech market.\n\nProject Impact\nThis foundational branding positions Ketha Solutions as a premium futuristic software provider, ready to attract enterprise clients seeking next-gen solutions. Logo delivered first, strategy rollout in progress.",
+        "services": [
+          "Logo Design",
+          "Brand Identity",
+          "Digital Strategy",
+          "Website Wireframes"
+        ],
+        "metrics": [
+          "Clean Modern Logo",
+          "Enterprise-Ready Branding"
+        ],
+        "gallery": [
+          "/modern-ecommerce-website.png",
+          "/mobile-banking-app.png",
+          "/modern-dashboard-analytics-interface.jpg"
+        ]
       },
       {
         "id": 3,
-        "title": "Digital Marketing",
+        "title": "Ceylon Pharma Academy - Social Media Growth Campaign",
         "image": "/mobile-banking-app.png",
-        "description": "Comprehensive digital marketing strategies that increase visibility and drive conversions."
+        "description": "Scaled from 6 students to 25-30 per batch through targeted Facebook boosting",
+        "details": "Scaled Ceylon Pharma Academy—an affordable online pharmacy course provider—from 6 students to consistent 25-30 per batch, every two months, through targeted Facebook boosting.\n\nClient Challenge\nStarted with just 6 enrolled students. Organic Facebook reach was minimal despite competitive pricing for pharmacy practice courses.\n\nOur Strategy\n• Facebook Ad Boosting: Low-budget campaigns targeting Sri Lankan healthcare aspirants, yielding 50+ registrations in first push and steady 25-30 students per bi-monthly batch.\n• Organic Growth Tips: Content optimization, posting schedules, and engagement strategies for sustainable reach.\n• Consultation Support: Course positioning, student retention, and enrollment scaling advice.\n\nResults Achieved\n• Batch Consistency: Now fills 25-30 students every 2 months (+400% sustained growth).\n• Ongoing Management: Handle all Facebook boosting plus organic/consulting support.",
+        "services": [
+          "Facebook Ad Boosting",
+          "Content Optimization",
+          "Organic Growth Strategy",
+          "Consultation Support"
+        ],
+        "metrics": [
+          "400% Growth",
+          "25-30 Students Per Batch"
+        ],
+        "gallery": [
+          "/mobile-banking-app.png",
+          "/modern-office-collaboration.png",
+          "/modern-dashboard-analytics-interface.jpg"
+        ]
       },
       {
         "id": 4,
-        "title": "Content Strategy",
+        "title": "Surfing Pinthaliya - Logo & Branding",
         "image": "/modern-dashboard-analytics-interface.jpg",
-        "description": "Strategic content planning and creation for maximum impact and audience engagement."
-      }
-    ],
-    "otherProjects": [
-      {
-        "id": 101,
-        "title": "Gayan Designs Brand Refresh",
-        "image": "/modern-ecommerce-website.png",
-        "summary": "Reimagined the visual identity for a boutique design studio, aligning the brand with premium positioning and a compelling story.",
+        "description": "Complete branding for surf hotel including logo, staff uniforms and t-shirts",
+        "details": "Created a unique logo and comprehensive branding for Surfing Pinthaliya—a cozy small hotel just 100m from Midigama Beach in Weligama, perfect for surfers.\n\nClient Challenge\nNeeded distinctive visual identity beyond generic beach hotel looks. Branding extended to staff uniforms and t-shirts for cohesive surf-vibe presentation.\n\nOur Solution\n• Custom Logo Design: Simple, wave-inspired logo capturing Midigama's surf culture with clean lines for digital/print versatility.\n• Branding Package: Designed staff t-shirts and uniforms featuring the logo, surf motifs, and beach-ready colors.\n• Brand Consistency: Ensured all elements reflect the relaxed, authentic Weligama surf stay experience.\n\nProject Impact\nSurfing Pinthaliya now stands out among Midigama competitors with professional, surf-centric branding that attracts the right guests—digital-ready for Airbnb/Booking.com listings.",
         "services": [
-          "Brand Strategy",
-          "Art Direction",
-          "Identity Design"
+          "Logo Design",
+          "Uniform Design",
+          "Brand Identity",
+          "Print Design"
         ],
         "metrics": [
-          "75% Lead Growth",
-          "Consistent Brand Toolkit"
-        ]
-      },
-      {
-        "id": 102,
-        "title": "Ceylon Luxe Villas Launch",
-        "image": "/modern-dashboard-analytics-interface.jpg",
-        "summary": "Crafted a launch playbook for a luxury villa collective spanning social, email, and booking engines to secure high-season occupancy.",
-        "services": [
-          "Campaign Strategy",
-          "Booking.com Optimization",
-          "Influencer Partnerships"
+          "Surf-Centric Branding",
+          "Digital-Ready Assets"
         ],
-        "metrics": [
-          "90% Occupancy in Month One",
-          "4.9★ Guest Rating"
-        ]
-      },
-      {
-        "id": 103,
-        "title": "Bluewave Digital Performance Campaign",
-        "image": "/mobile-banking-app.png",
-        "summary": "Scaled a fintech client's paid social presence with segmented messaging and an experimentation roadmap that doubled conversions.",
-        "services": [
-          "Paid Media",
-          "Conversion Copy",
-          "Performance Reporting"
-        ],
-        "metrics": [
-          "2.1x Conversion Lift",
-          "35% Lower CPA"
-        ]
-      },
-      {
-        "id": 104,
-        "title": "InstaFood Sri Lanka Social Amplification",
-        "image": "/modern-office-collaboration.png",
-        "summary": "Built a snackable content pipeline for a fast-growing food brand, pairing reels with creator collaborations and pop-up activations.",
-        "services": [
-          "Content Production",
-          "Creator Management",
-          "Community Building"
-        ],
-        "metrics": [
-          "4x Weekly Reach",
-          "Top-of-Mind Awareness"
-        ]
-      },
-      {
-        "id": 105,
-        "title": "Hospitality Concierge Automation",
-        "image": "/modern-dashboard-analytics-interface.jpg",
-        "summary": "Introduced a CRM-driven concierge experience for a boutique hotel group, personalizing guest journeys before, during, and after stays.",
-        "services": [
-          "CRM Implementation",
-          "Guest Journey Mapping",
-          "Email Automation"
-        ],
-        "metrics": [
-          "38% Upsell Rate",
-          "60% Repeat Bookings"
+        "gallery": [
+          "/modern-dashboard-analytics-interface.jpg",
+          "/modern-office-collaboration.png",
+          "/modern-ecommerce-website.png"
         ]
       }
     ]
   },
-  "caseStudies": {
-    "badge": "Case Studies",
-    "headline": "Real Results, Real Magic",
-    "studies": [
+  "reviews": {
+    "badge": "Customer Reviews",
+    "headline": "What partners say about our magic",
+    "items": [
       {
         "id": 1,
-        "title": "Cylon Pharma",
-        "image": "/modern-ecommerce-website.png",
-        "challenge": "Cylon Pharma needed a cohesive brand identity and a robust social media presence to stand out in the competitive pharmaceutical market.",
-        "solution": "Magic Hat developed a bold new logo, a consistent brand voice, and a targeted social media strategy focusing on LinkedIn and Twitter to engage healthcare professionals.",
-        "result": "A 40% increase in social media engagement and improved brand recognition within six months.",
-        "metrics": [
-          "40% Engagement Increase"
-        ]
+        "name": "Lahiru Akalanka",
+        "role": "Ceylon pharma academy",
+        "quote": "Great Customer support by magic hat. Fast responses, clear communication, and very professional service. I will definitely use this service again. ❤️🏆",
+        "rating": 5,
+        "avatar": "/avatars/review-1.jpg"
       },
       {
         "id": 2,
-        "title": "Booking.com Partnership",
-        "image": "/modern-dashboard-analytics-interface.jpg",
-        "challenge": "A boutique hotel struggled with low visibility and bookings on Booking.com.",
-        "solution": "Magic Hat optimized their listing with professional photography, compelling descriptions, and strategic pricing recommendations, while also managing guest communications.",
-        "result": "A 25% increase in bookings and a 4.8-star average rating within three months.",
-        "metrics": [
-          "25% More Bookings",
-          "4.8★ Rating"
-        ]
+        "name": "Tharaka",
+        "role": "Popeye Beach Restaurant Ahangama, Aurora Villa & Hostel",
+        "quote": "We faced several technical challenges with our businesses. Our restaurant had Google verification issues, Aurora Villa had very few bookings over the last two years, and Aurora Hostel had no bookings at all. We engaged services from Magic Hat, and Hasitha personally got involved to resolve all the issues. Now, we are seeing back-to-back bookings, and our restaurant is fully live and performing much better. Highly recommended!",
+        "rating": 5,
+        "avatar": "/avatars/review-2.jpg"
       }
     ]
+  },
+  "partners": {
+    "badge": "Our Partners",
+    "headline": "Trusted by brands with big ambitions",
+    "items": [
+      {
+        "id": 1,
+        "name": "Bluewave Digital",
+        "logo": "/assets/Ceylonpharma.png"
+      },
+      {
+        "id": 2,
+        "name": "Ceylon Luxe Villas",
+        "logo": "/assets/Codeammo.png"
+      },
+      {
+        "id": 3,
+        "name": "InstaFood",
+        "logo": "/assets/Dmax.png"
+      },
+      {
+        "id": 4,
+        "name": "Gayan Designs",
+        "logo": "/assets/Ketha.png"
+      },
+      {
+        "id": 5,
+        "name": "Hospitality Co",
+        "logo": "/assets/Lobsterhouse.png"
+      },
+      {
+        "id": 6,
+        "name": "Hospitality Co",
+        "logo": "/assets/NilushaEng.png"
+      }
+    ]
+  },
+  "contact": {
+    "email": "hello@magichat.agency",
+    "whatsapp": {
+      "label": "Chat on WhatsApp",
+      "number": "+94710454455",
+      "link": "94710454455",
+      "message": "Hi Magic Hat team! I'd love to learn more about your services."
+    }
   },
   "footer": {
     "description": "Pulling extraordinary results out of thin air through strategic marketing, brand solutions, and creative excellence.",
@@ -280,7 +287,6 @@
         "links": [
           "About Us",
           "Our Team",
-          "Case Studies",
           "Contact"
         ]
       },
